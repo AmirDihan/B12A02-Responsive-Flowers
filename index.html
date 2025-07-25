@@ -278,7 +278,11 @@
         >
           <div
             class="w-full bg-no-repeat bg-cover order-0 rounded-2xl drop-shadow-xl/25"
-            style="background-image: url(./assets/deal-bloom.png)"
+            style="background-image: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.3),
+                  rgba(0, 0, 0, 0.3)
+                ),url(./assets/deal-bloom.png)"
           >
             <div class="py-15 px-10">
               <p
@@ -295,7 +299,11 @@
           </div>
           <div
             class="w-full bg-no-repeat bg-cover order-3 md:order-2 md:col-span-2 md:row-span-2 rounded-2xl md:rounded-3xl drop-shadow-xl/25"
-            style="background-image: url(./assets/deal-zabo.png)"
+            style="background-image: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.2),
+                  rgba(0, 0, 0, 0.2)
+                ),url(./assets/deal-zabo.png)"
           >
             <div class="py-15 md:py-32 px-10 md:pt-43 md:">
               <p
@@ -312,7 +320,14 @@
           </div>
           <div
             class="bg-no-repeat bg-cover order-2 md:order-3 rounded-2xl drop-shadow-xl/25"
-            style="background-image: url(./assets/deal-ana.png)"
+            style="
+              background-image: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.4),
+                  rgba(0, 0, 0, 0.4)
+                ),
+                url(./assets/deal-ana.png);
+            "
           >
             <div class="py-15 px-10">
               <p
@@ -354,35 +369,40 @@
         </div>
       </section>
     </main>
-    <footer class="max-w-[1140px] mx-4 md:mx-auto my-12 grid grid-cols-1 md:grid-cols-4 items-start gap-x-[110px]">
-        <div>
-            <img src="./assets/logo.png" alt="">
-            <p class="mt-4 text-[#00000092]">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
-        </div>
-        <div class="mt-6 md:mt-0">
-            <ul class="flex flex-col gap-y-6 text-[#00000092]">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="mt-6 md:mt-0">
-            <ul class="flex flex-col gap-y-6 text-[#00000092]">
-                <li><a href="">Features</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Terms of Service</a></li>
-                <li><a href="">Help Center</a></li>
-            </ul>
-        </div>
-        <div class="flex items-center gap-6 mt-5 md:mt-0">
-            <a href=""><img src="./assets/icon-linkedin.png" alt=""></a>
-            <a href=""><img src="./assets/icon-twitter.png" alt=""></a>
-            <a href=""><img src="./assets/icon-facebook.png" alt=""></a>
-            <a href=""><img src="./assets/icon-youtube.png" alt=""></a>
-        </div>
+    <footer
+      class="max-w-[1140px] mx-4 md:mx-auto my-12 grid grid-cols-1 md:grid-cols-4 items-start gap-x-[110px]"
+    >
+      <div>
+        <img src="./assets/logo.png" alt="" />
+        <p class="mt-4 text-[#00000092]">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop.
+        </p>
+      </div>
+      <div class="mt-6 md:mt-0">
+        <ul class="flex flex-col gap-y-6 text-[#00000092]">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="mt-6 md:mt-0">
+        <ul class="flex flex-col gap-y-6 text-[#00000092]">
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Help Center</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-6 mt-5 md:mt-0">
+        <a href=""><img src="./assets/icon-linkedin.png" alt="" /></a>
+        <a href=""><img src="./assets/icon-twitter.png" alt="" /></a>
+        <a href=""><img src="./assets/icon-facebook.png" alt="" /></a>
+        <a href=""><img src="./assets/icon-youtube.png" alt="" /></a>
+      </div>
     </footer>
   </body>
 </html>
